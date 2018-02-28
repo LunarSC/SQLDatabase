@@ -1,0 +1,61 @@
+<html>
+<title> CSC 471-01 LTPEDRAZ </title>
+<h1> Insert </h1>
+<body>
+<!--Employee-->
+<h4> Employee </h4>
+<form action="insertEmployee.php">
+  ssn: <input type="text" name="ssn"><br>
+  First name: <input type="text" name="fName"><br>
+  Middle initial: <input type="text" name="mInit"><br>
+  Last name: <input type="text" name="lName"><br>
+  Address: <input type="text" name="address"><br>
+  Date of birth: <input type="text" name="dob"><br>
+  Pay type: <input type="text" name="payType"><br>
+  Pay rate: <input type="text" name="payRate"><br>
+  <input type="submit" value="Insert">
+  </form> 
+  
+ <!--Department-->
+ <h4> Department </h4>
+ <form action="insertDepartment.php">
+	Department location: <input type="text" name="deptLocation"><br>
+	Department name: <input type="text" name="deptName"><br>
+	Department number: <input type="text" name="deptNum"><br>
+	Number of employees: <input type="text" name="numEmp"><br>
+	Project name: <input type="text" name="projName"><br>
+	Project number: <input type="text" name="projNum"><br>
+	<input type="submit" value="Insert">
+ </form>
+ 
+  <!--Dependent-->
+  <h4> Dependent </h4>
+  <form action="insertDependent.php">
+	Name: <input type="text " name="name"><br>
+	Relationship: <input type="text" name="relationship"><br>
+	ssn: <input type="text " name="ssn"><br>
+	<input type="submit" value="Insert">
+ </form>
+ 
+  <!--Manager-->
+  <h4> Manager </h4>
+  <form action="insertManager.php">
+	Department Number: <input type="text" name="deptNum"><br>
+	Office number: <input type="text" name="officeNum"><br>
+	Start date: <input type="text" name="startDate"><br>
+	<input type="submit" value="Insert">
+ </form>
+ 
+  <!--Project-->
+  <h4> Project </h4>
+  <form action="insertProject.php">
+	Project description: <input type="text" name="projDesc"><br>
+	Project name: <input type="text" name="projName"><br>
+	Project number: <input type="text" name="projNum"><br>
+	<input type="submit" value="Insert">
+ </form>
+  <form action="index.html">
+  <input type="submit" value="Back">
+</form>
+</body>
+</html>
